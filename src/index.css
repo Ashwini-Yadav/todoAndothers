@@ -159,3 +159,32 @@ pre {
   white-space: pre-wrap; /* Wraps text within <pre> */
   word-break: break-all; /* Allows breaking long words */
 }
+
+/* Voting Count CSS */
+.card{
+  height: 30vh;
+  width: 30vh;
+  margin: 0.5rem;
+  border-radius: 6px;
+  background-color: red;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.cardBody{
+  /* height: 100vh; */
+  padding: 2rem;
+  background-color: gainsboro;
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;  
+  
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}

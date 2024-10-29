@@ -1,8 +1,13 @@
 import "./App.css";
+import Voting2 from "./components/Voting2";
 import Logo from "./components/Logo";
 import Form from "./components/Form";
 import PackingList from "./components/PackingList.jsx";
 import Stats from "./components/Stats";
+import DecreaseCount from "./components/DecreaseCount.jsx";
+import VoteSystemBody from "./components/VoteSystemBody";
+
+
 
 function App() {
 
@@ -56,6 +61,9 @@ function App() {
         <Form/>
         <PackingList/>
         <Stats/>
+        <DecreaseCount/>
+      {/* <VoteSystemBody/> */}
+        <Voting2/>
       </>
      )
 
